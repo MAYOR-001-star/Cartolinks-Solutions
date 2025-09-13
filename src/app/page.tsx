@@ -4,8 +4,6 @@ import { useState } from "react";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
 import { ToolsGrid } from "./components/ToolsGrid";
-import { GallerySection } from "./components/GallerySection";
-
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState<boolean>(false);
 
